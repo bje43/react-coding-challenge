@@ -1,0 +1,24 @@
+.message-card {
+  border-radius: 5px;
+  height: 72px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.content {
+  padding-left: 15px;
+}
+
+.clear-button {
+  padding-right: 20px;
+  cursor: pointer;
+}

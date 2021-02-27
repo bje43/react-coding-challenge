@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.message-list-wrapper {
+  width: 100%;
+}
+
+.message-columns-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.control-button {
+  font-size: 16px;
+  background: #40e0d0;
+  width: 160px;
+  height: 40px;
+  margin: 4px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
